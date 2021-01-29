@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.cintec.certificacion.prueba.travelocity.runner.TravelocityRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 20.227 sec <<< FAILURE! - in com.cintec.certificacion.prueba.travelocity.runner.TravelocityRunner
+Buscar hotel con fecha y lugar(Buscar Hotel en la página de tavelocity)  Time elapsed: 18.276 sec  <<< ERROR!
+net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for By.xpath: //INPUT[@id='location-field-destination'] to be enabled (tried for 5 second(s) with 100 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using xpath=//INPUT[@id='location-field-destination']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-OKA389NC', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: RemoteWebDriver
+
